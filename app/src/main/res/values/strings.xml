@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RulesBreaker_v2</string>
+    <string name="begin">begin</string>
+    <string name="begin2">BEGIN</string>
+    <string name="disconnect">Disconnect!</string>
+    <string name="back">BACK</string>
+    <string name="rules_breaker">----------- RULES BREAKER -----------</string>
+    <string name="pair_and_order">Pair and Order</string>
+    <string name="initial_position"><![CDATA[<-- INITIAL POSITION -->]]></string>
+    <string name="safety">safety first!!</string>
+</resources>

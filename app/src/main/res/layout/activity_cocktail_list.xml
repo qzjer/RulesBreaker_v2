@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cocktail_list">
+
+    <TextView
+        android:id="@+id/progress"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textAllCaps="true" />
+
+    <in.shadowfax.proswipebutton.ProSwipeButton
+        android:id="@+id/order_cuba"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:layout_marginBottom="100dp"
+        app:bg_color="@android:color/holo_blue_dark"
+        app:btn_text="   ------>    C u b a     L I B R E   ( 1 )"
+        app:text_size="18dp" />
+
+    <in.shadowfax.proswipebutton.ProSwipeButton
+        android:id="@+id/gin_apa_tonica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="110dp"
+        app:bg_color="@android:color/holo_red_light"
+        app:btn_text="       ------>    G i n  and  t o n i c   ( 2 )"
+        app:text_size="18dp" />
+
+    <in.shadowfax.proswipebutton.ProSwipeButton
+        android:id="@+id/long_island"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="270dp"
+        app:bg_color="@android:color/background_dark"
+        app:btn_text="      ------>    L o n g   I s l a n d   ( 3 )"
+        app:text_size="18dp" />
+
+    <in.shadowfax.proswipebutton.ProSwipeButton
+        android:id="@+id/screw_driver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        app:bg_color="@android:color/darker_gray"
+        app:btn_text="        ------>   S c r e w    D r i v e r  ( 4 )"
+        app:text_size="18dp" />
+
+    <in.shadowfax.proswipebutton.ProSwipeButton
+        android:id="@+id/vodka_cake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        app:bg_color="@android:color/holo_red_dark"
+        app:btn_text="      ------>      V o d k a   C o k e   ( 5 )"
+        app:text_size="18dp" />
+
+    <in.shadowfax.proswipebutton.ProSwipeButton
+        android:id="@+id/vodka_tonic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="480dp"
+        app:bg_color="@android:color/holo_green_dark"
+        app:btn_text="         ------>      V o d k a   T o n i c   ( 6 )"
+        app:text_size="18dp" />
+
+    <Button
+        android:id="@+id/initial_pos"
+        android:layout_width="211dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="4dp"
+        android:shadowColor="@color/black"
+        android:text="@string/initial_position"
+        android:textAlignment="center"
+        android:textColorHighlight="@color/sub_btn_tick"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/safety"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="73dp"
+        android:text="@string/safety"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textSize="26sp" />
+
+    <com.spark.submitbutton.SubmitButton
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:layout_alignTop="@+id/progress"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="3dp"
+        android:text="@string/back"
+        android:textColor="@color/black"
+        app:sub_btn_background="@color/sub_btn_line"
+        app:sub_btn_duration="1500"
+        app:sub_btn_line_color="@color/sub_btn_line"
+        app:sub_btn_ripple_color="@color/colorAccent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="96dp"
+        android:layout_height="72dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/ic_cancel_full_24dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="98dp"
+        android:layout_height="71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        app:srcCompat="@drawable/ic_cancel_full_24dp" />
+
+</RelativeLayout>
